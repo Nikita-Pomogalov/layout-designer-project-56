@@ -11,6 +11,7 @@
     line-height: 1.5rem;
     color: #cacaca;
     background: #08020d;
+    overflow-x: hidden;
   }
 
   @mixin margin-x($ml, $mr){
@@ -62,6 +63,68 @@
     color: white;
     font-family: Roboto;
     font-size: 20px;
+  }
+
+  .black-back {
+    background: #08020d;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .card {
+    padding: 0 1.5rem;
+    border-radius: 1rem;
+    width: 30%;
+    margin-bottom: 30px;
+  }
+
+  .m-200 {
+    margin-bottom: 200px;
+  }
+
+  .free {
+    background-image: url("../images/subscribe_1.png");
+    background-position: center;
+    background-size: cover;
+    margin-right: 50px;
+  }
+
+  .usual {
+    background-image: url("../images/subscribe_2.png");
+    background-position: center;
+    background-size: cover;
+    margin-right: 50px;
+  }
+
+  .premium {
+    background-image: url("../images/subscribe_3.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .m-50 {
+    margin-bottom: 50px;
+  }
+
+  .count {
+    line-height: 1em;
+    font-size: 70px;
+    vertical-align: bottom;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .rub {
+    vertical-align: top;
+    color: white;
+    font-weight: normal;
+  }
+
+  .subscription-page {
+    text-align: center;
+    margin: 0 auto;
   }
 
 
@@ -133,6 +196,24 @@
     }
     .button {
       min-width: 570px;
+
+      &.sub {
+        min-width: 100%;
+        background: none;
+        border: 2px solid #cacaca;
+        border-radius: 3px;
+        color: #cacaca;
+        margin-bottom: 50px;
+      }
+    }
+
+    .subscription-page {
+      width: 1240px;
+      margin-top: 100px;
+    }
+    .f-30 {
+      font-size: 30px;
+      font-weight: normal;
     }
   }
 
@@ -214,5 +295,52 @@
 
     .button {
       width: 100%;
+
+      &.sub {
+        min-width: 100%;
+        background: none;
+        border: 2px solid #cacaca;
+        border-radius: 3px;
+        color: #cacaca;
+        margin-bottom: 50px;
+      }
+    }
+
+    .subscription-page {
+      width: 100%;
+      margin-top: 100px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center {
+      margin-right: 20px;
+      margin-bottom: 50px;
+    }
+
+    .f-30 {
+      font-weight: normal;
+    }
+
+    .rub {
+      font-size: 38px;
+      vertical-align: middle;
+    }
+
+    .count {
+      vertical-align: top;
+    }
+    .card {
+      width: 100%;
+    }
+    .free {
+      margin-right: 0;
+    }
+    .usual {
+      margin-right: 0;
     }
   }
