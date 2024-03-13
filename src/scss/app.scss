@@ -127,13 +127,41 @@
     margin: 0 auto;
   }
 
+  #page-news {
+    padding-top: 100px;
+  }
 
-  @media screen and (min-width: 1200px) {
+  .news-author {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    
+    .size-19 {
+      height: 19px;
+      width: 19px;
+      margin-top: 16px;
+    }
+  }
+  .name-author {
+    color: #F89202;
+    text-transform: uppercase;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .up {
+    text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 1201px) {
     h1 {
       font-size: 60px;
       line-height: 90px;
       font-weight: bold;
       text-transform: uppercase;
+      color: white;
     }
 
     h2 {
@@ -141,6 +169,7 @@
       line-height: 57px;
       font-weight: bold;
       text-transform: uppercase;
+      color: white;
     }
 
     .back {
@@ -178,6 +207,8 @@
     .main-page {
       width: 1240px;
       padding-bottom: 200px;
+
+
     }
 
     .form {
@@ -205,6 +236,18 @@
         color: #cacaca;
         margin-bottom: 50px;
       }
+
+      &.album {
+        min-width: 20%;
+        background: none;
+        border: 2px solid #cacaca;
+        color: #cacaca;
+        margin-top: 30px;
+        padding: 16px 30px;
+        float: left;
+        text-transform: uppercase;
+        font-size: 13px;
+      }
     }
 
     .subscription-page {
@@ -215,8 +258,30 @@
       font-size: 30px;
       font-weight: normal;
     }
+    .news-item {
+      display: flex;
+      padding-top: 30px;
+    }
+  
+    .l-30 {
+      margin-left: 30px;
+    }
+  
+    .news-body {
+      text-align: left;
+  
+      h3 {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: normal;
+        margin-top: 0;
+      }
+    }
+    .text-item {
+      display: flex;
+      flex-direction: column;
+    }
   }
-
 
   @media screen and (max-width: 1199px) {
     h1 {
@@ -224,6 +289,7 @@
       line-height: 45px;
       font-weight: bold;
       text-transform: uppercase;
+      color: white;
     }
 
     h2 {
@@ -231,6 +297,7 @@
       line-height: 27px;
       font-weight: bold;
       text-transform: uppercase;
+      color: white;
     }
 
     .back {
@@ -268,7 +335,7 @@
 
     .flex-m{
       width: 100%;
-      padding: 0 20px;
+      margin: 0 20px;
     }
 
     .search {
@@ -304,6 +371,18 @@
         color: #cacaca;
         margin-bottom: 50px;
       }
+      &.album {
+        width: 40%;
+        background: none;
+        border: 2px solid #cacaca;
+        color: #cacaca;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 16px 30px;
+        float: left;
+        text-transform: uppercase;
+        font-size: 13px;
+      }
     }
 
     .subscription-page {
@@ -311,7 +390,7 @@
       margin-top: 100px;
     }
 
-    .flex {
+    .flex-s {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -343,4 +422,47 @@
     .usual {
       margin-right: 0;
     }
+    .news-body {
+      text-align: left;
+  
+      h3 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: normal;
+        margin-top: 0;
+        text-transform: capitalize;
+        color: white;
+      }
+    }
+    .m-30 {
+      margin-bottom: 45px;
+    }
+
+    #page-news {
+      padding-top: 0;
+    }
+
+    .news-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .text-item{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .m-50 {
+      margin-bottom: 50px;
+    }
+
+    .news-author {
+      flex-direction: row;
+      width: 55%;
+    }
+
+    .news-footer {
+      font-size: 13px;
+    }
+    
   }
