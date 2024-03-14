@@ -99,7 +99,7 @@ input[type=email]::-webkit-input-placeholder {
   background-size: cover;
 }
 
-.m-50 {
+.marg-50 {
   margin-bottom: 50px;
 }
 
@@ -148,6 +148,10 @@ input[type=email]::-webkit-input-placeholder {
 
 .up {
   text-transform: uppercase;
+}
+
+.mobile-m {
+  margin: 0;
 }
 
 @media screen and (min-width: 1201px) {
@@ -231,6 +235,17 @@ input[type=email]::-webkit-input-placeholder {
     text-transform: uppercase;
     font-size: 13px;
   }
+  .button.download {
+    min-width: 10%;
+    max-width: 138px;
+    background: #95390C;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 40px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 12.8px;
+  }
   .subscription-page {
     width: 1240px;
     margin-top: 100px;
@@ -258,6 +273,18 @@ input[type=email]::-webkit-input-placeholder {
   .text-item {
     display: flex;
     flex-direction: column;
+  }
+  .mobile-page {
+    display: flex;
+  }
+  .description-mob {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .img-phone {
+    margin-left: 200px;
+    margin-right: 100px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -310,9 +337,6 @@ input[type=email]::-webkit-input-placeholder {
     width: 100%;
     margin-left: 0;
   }
-  .m-0 {
-    margin: 0 auto;
-  }
   .main-page {
     width: 100%;
     padding: 100px 20px 200px 20px;
@@ -345,6 +369,17 @@ input[type=email]::-webkit-input-placeholder {
     float: left;
     text-transform: uppercase;
     font-size: 13px;
+  }
+  .button.download {
+    min-width: 10%;
+    max-width: 138px;
+    background: #95390C;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 40px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 12.8px;
   }
   .subscription-page {
     width: 100%;
@@ -389,8 +424,8 @@ input[type=email]::-webkit-input-placeholder {
     text-transform: capitalize;
     color: white;
   }
-  .m-30 {
-    margin-bottom: 45px;
+  .marg-50 {
+    margin-bottom: 50px;
   }
   #page-news {
     padding-top: 0;
@@ -398,6 +433,9 @@ input[type=email]::-webkit-input-placeholder {
   .news-item {
     display: flex;
     flex-direction: column;
+  }
+  .news-item.ozzy {
+    flex-direction: column-reverse;
   }
   .text-item {
     display: flex;
@@ -412,6 +450,15 @@ input[type=email]::-webkit-input-placeholder {
   }
   .news-footer {
     font-size: 13px;
+  }
+  .mobile-page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .description-mob {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
   }
 }
 
