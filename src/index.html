@@ -13,10 +13,10 @@
                 <div class="flex flex-m">
                     <img class="img-main" src="../src/images/logo.svg" alt="Лого">   
                     <p class="m-25 pos up">MUSIC BOX</p> 
-                    <p class="m-100 m-0 up">Главная</p>
-                    <p class="m-25 m-0 up">Каталог</p>
-                    <p class="m-25 m-0 up">Исполнители</p>
-                    <p class="m-25 m-0 up">Контакты</p>
+                    <a href="#page-description" class="m-100 m-0 up">Главная</a>
+                    <a href="#page-pricing" class="m-25 m-0 up">Каталог</a>
+                    <a href="#page-news" class="m-25 m-0 up">Исполнители</a>
+                    <a href="#contacts" class="m-25 m-0 up">Контакты</a>
                     <input class="search m-20" name="search" type="search" placeholder="ПОИСК..."> 
                 </div>
                     
@@ -32,7 +32,7 @@
                     <input class="form" name="name" type="text" placeholder="Имя">
                     <input class="form m-25" name="email" type="email" placeholder="Email">
                 </div>
-                <button type="submit" class="button">Получить доступ</button>
+                <a href="https://music.yandex.ru/home"><button type="submit" class="button">Получить доступ</button></a>
             </div>    
         </section>  
     </section>
@@ -44,19 +44,19 @@
                 <div class="card free">
                     <h3 class="m-200 f-30 white">Бесплатная</h3>
                     <h2 class="price"><span class="count">0</span> <span class="rub">руб.</span></h2>
-                    <button type="submit" class="button sub white">Оформить</button>
+                    <a href="#"><button type="submit" class="button sub white">Оформить</button></a>
                     <p class="m-50 white">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама</p>
                 </div>
                 <div class="card usual">
                     <h3 class="m-200 f-30 white">Стандартная</h3>
                     <h2><span class="count">250</span> <span class="rub">руб.</span></h2>
-                    <button type="submit" class="button sub white">Оформить</button>
+                    <a href="#"><button type="submit" class="button sub white">Оформить</button></a>
                     <p class="m-50 white">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве.</p>
                 </div>
                 <div class="card premium">
                     <h3 class="m-200 f-30 white">Премиум</h3>
                     <h2><span class="count">500</span> <span class="rub">руб.</span></h2>
-                    <button type="submit" class="button sub white">Оформить</button>
+                    <a href="#"><button type="submit" class="button sub white">Оформить</button></a>
                     <p class="m-50 white">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в высоком качестве.</p>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                             <p class="name-author">Music Box</p>
                             <p>17/01/2020</p>
                         </div>
-                        <button class="button album">К альбому</button>
+                        <a href="https://music.youtube.com/watch?v=hlFOLS7vKaQ&list=OLAK5uy_nF7ZsH9d0wbgH1jqzFHNvRp3MBKpBb2rw"><button class="button album">К альбому</button></a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                             <p class="name-author">Music Box</p>
                             <p>24/02/2020</p>
                         </div>
-                        <button class="button album">К альбому</button>
+                        <a href="https://music.youtube.com/playlist?list=OLAK5uy_nEIUXwG4Nm9_fbU6GFhJCVhJMj4iFxFYs"><button class="button album">К альбому</button></a>
                     </div>
                 </div>
                 <img class="order" alt="Оззи Озборн" src="../src/images/Ordinary Man.png">
@@ -123,5 +123,43 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer" id="contacts">
+        <div class="footer-grid main-page">
+            <div class="grid-element">
+                <h2>О нас</h2>
+                <a href="#">История компании</a>
+                <a href="#">Карьера</a>
+                <a href="#">Особенности</a>
+                <a href="#">Пресса</a>
+            </div>
+            <div class="grid-element">
+                <h2>Поддержка</h2>
+                <a href="#">База знаний</a>
+                <a href="#page-pricing">Тарифы</a>
+                <a href="#page-app">Мобильное приложение</a>
+                <a href="#">Условия использования</a>
+            </div>
+            <div class="grid-element">
+                <h2>Контакты</h2>
+                <p>hello@music.box</p>
+                <p>Russia, Moscow, Music Box studio</p>
+                <p>+7 499 999 99 99</p>
+            </div>
+            <div class="last-grid">
+                <h2>Подписывайтесь</h2>
+                <a href="https://www.google.ru/?hl=ru"><img src="../src/images/Google+.png" alt="Google"></a>
+                <a href="https://twitter.com/?lang=ru"><img class="m-25 mm-25" src="../src/images/Twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="flex-foot main-page">
+            <a href="#">Магазин</a>
+            <a href="#" class="m-25">Обслуживание</a>
+            <a href="#" class="m-25">Блог</a>
+            <a href="#" class="m-25">Поддержка</a>
+            <a href="#" class="m-25">Контакты</a>
+        </div>   
+    </footer>
 </body>
 </html>
