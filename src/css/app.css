@@ -44,7 +44,7 @@ input[type=email]::-webkit-input-placeholder {
 .search {
   min-height: 40px;
   padding-left: 20px;
-  margin-left: 150px;
+  margin-left: 280px;
   line-height: 1.5rem;
   border-radius: 30px;
   background-color: #3d3c3c;
@@ -240,7 +240,51 @@ input {
   margin-bottom: 50px;
 }
 
-@media screen and (min-width: 1201px) {
+.h3-disc {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.flex-disc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  width: 100vw;
+}
+.footer h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  text-decoration: none;
+  margin-top: 0;
+  text-align: left;
+}
+.footer a.m-t-25 {
+  margin-top: 25px;
+}
+.footer p {
+  margin: 0;
+}
+
+@media screen and (min-width: 1001px) {
   h1 {
     font-size: 60px;
     line-height: 90px;
@@ -378,27 +422,6 @@ input {
     margin-left: 200px;
     margin-right: 100px;
   }
-  .footer {
-    background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-    width: 100vw;
-  }
-  .footer h2 {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  .footer a {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: normal;
-    text-decoration: none;
-    margin-top: 0;
-    text-align: left;
-  }
-  .footer p {
-    margin: 0;
-  }
   .footer-grid {
     display: grid;
     grid-template-columns: repeat(4, 310px);
@@ -441,9 +464,14 @@ input {
   }
   #page-popular-track {
     margin-top: 100px;
+    margin: 100px auto 0 auto;
+  }
+  .s-250 {
+    width: 250px;
+    height: 250px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1000px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -468,7 +496,7 @@ input {
     top: 20px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   #page-description {
     padding: 200px 20px;
@@ -477,6 +505,9 @@ input {
   a {
     text-decoration: none;
     color: #cacaca;
+  }
+  .img-main {
+    margin-bottom: 20px;
   }
   .m-0 {
     margin: 0;
@@ -546,6 +577,7 @@ input {
   .subscription-page {
     width: 100%;
     margin-top: 100px;
+    padding: 100px 20px 100px 0;
   }
   .flex-s {
     display: flex;
@@ -610,6 +642,10 @@ input {
   .news-footer {
     font-size: 13px;
   }
+  .grid-element {
+    display: flex;
+    flex-direction: column;
+  }
   .mobile-page {
     display: flex;
     flex-direction: column-reverse;
@@ -667,6 +703,20 @@ input {
   }
   .m-tt-25 {
     margin-top: 25px;
+  }
+  .s-137 {
+    width: 137px;
+    height: 137px;
+  }
+  .w-137 {
+    width: 137px;
+  }
+  .artist-400-px {
+    margin-left: 20px;
+  }
+  .mm-50 {
+    margin-left: 0;
+    margin-right: 50px;
   }
 }
 

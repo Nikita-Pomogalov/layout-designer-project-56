@@ -49,11 +49,10 @@
   .search {
     min-height: 40px;
     padding-left: 20px;
-    margin-left: 150px;
+    margin-left: 280px;
     line-height: 1.5rem;
     border-radius: 30px;
     background-color: #3d3c3c;
-
   }
   
   .button {
@@ -235,10 +234,53 @@
   .head {
     margin-bottom: 50px;
   }
+  .h3-disc {
+    font-size: 12.8px;
+    line-height: 19.2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .flex-disc {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .footer {
+    background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+    width: 100vw;
+    
+
+    & h2 {
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    & a {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: normal;
+      text-decoration: none;
+      margin-top: 0;
+      text-align: left;
+      &.m-t-25 {
+        margin-top: 25px;
+      }
+    }
+
+    & p {
+      margin: 0;
+    }
+  }
 
 
-
-  @media screen and (min-width: 1201px) {
+  @media screen and (min-width: 1001px) {
     h1 {
       font-size: 60px;
       line-height: 90px;
@@ -392,31 +434,6 @@
       margin-right: 100px;
     }
 
-    .footer {
-      background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-      width: 100vw;
-      
-
-      & h2 {
-        font-size: 18px;
-        line-height: 27px;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-      
-      & a {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: normal;
-        text-decoration: none;
-        margin-top: 0;
-        text-align: left;
-      }
-
-      & p {
-        margin: 0;
-      }
-    }
     
     .footer-grid{
       display: grid;
@@ -467,10 +484,17 @@
     }
     #page-popular-track {
       margin-top: 100px;
+      margin: 100px auto 0 auto;
+      
     }
+    .s-250 {
+      width: 250px;
+      height: 250px;
+    }
+    
   }
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1000px) {
     h1 {
       font-size: 30px;
       line-height: 45px;
@@ -486,6 +510,7 @@
       text-transform: uppercase;
       color: white;
     }
+    
 
     .back {
       background-image: url("../images/banner.png");
@@ -498,7 +523,7 @@
       top: 20px;
       width: 100%;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
     }
 
     #page-description {
@@ -509,6 +534,10 @@
     a {
       text-decoration: none;
       color: #cacaca;
+    }
+
+    .img-main {
+      margin-bottom: 20px;
     }
 
     .m-0{
@@ -590,6 +619,7 @@
     .subscription-page {
       width: 100%;
       margin-top: 100px;
+      padding: 100px 20px 100px 0;
     }
 
     .flex-s {
@@ -665,6 +695,10 @@
     .news-footer {
       font-size: 13px;
     }
+    .grid-element {
+      display: flex;
+      flex-direction: column;
+    }
 
     
     .mobile-page {
@@ -729,7 +763,19 @@
     .m-tt-25 {
       margin-top: 25px;
     }
-
+    .s-137 {
+      width: 137px;
+      height: 137px;
+    }
+    .w-137{
+      width: 137px;
+    }
+    .artist-400-px {
+      margin-left: 20px;
+    }
+    .mm-50 {
+      @include margin-x(0, 50px)
+    }
   }
 
 
