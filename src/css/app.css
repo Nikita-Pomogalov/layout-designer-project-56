@@ -320,7 +320,7 @@ input {
   }
   .header {
     position: absolute;
-    top: 20px;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -511,19 +511,28 @@ input {
     display: flex;
     justify-content: space-between;
   }
+  .header a {
+    line-height: 15px;
+  }
   #page-description {
-    padding: 200px 20px;
+    padding: 100px 20px;
     margin: 0 auto;
+  }
+  .flex-for-mob {
+    display: flex;
   }
   a {
     text-decoration: none;
     color: #cacaca;
   }
   .img-main {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .m-20 {
     margin-top: 20px;
+  }
+  .m-15 {
+    margin-left: 15px;
   }
   .pos {
     position: absolute;
@@ -542,7 +551,7 @@ input {
   }
   .main-page {
     width: 100%;
-    padding: 100px 20px 100px 0;
+    padding-top: 200px;
   }
   .lh-0-m {
     margin: 0 auto;
