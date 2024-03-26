@@ -25,10 +25,12 @@ header {
 
 input[type=text]::-webkit-input-placeholder {
   color: white;
+  font-weight: bold;
 }
 
 input[type=email]::-webkit-input-placeholder {
   color: white;
+  font-weight: bold;
 }
 
 .main-page {
@@ -48,10 +50,14 @@ input[type=email]::-webkit-input-placeholder {
 .search {
   min-height: 25px;
   padding-left: 20px;
-  margin-left: 280px;
+  margin-left: 400px;
   line-height: 1.5rem;
   border-radius: 30px;
   background-color: #3d3c3c;
+}
+
+.access {
+  font-weight: normal;
 }
 
 .button {
@@ -60,8 +66,8 @@ input[type=email]::-webkit-input-placeholder {
   min-height: 50px;
   background-color: #34c077;
   color: white;
-  font-family: Roboto;
-  font-size: 20px;
+  font-size: 13.3px;
+  text-transform: uppercase;
 }
 .button-artist {
   width: 200px;
@@ -506,7 +512,7 @@ input {
   }
   .header {
     position: absolute;
-    top: 20px;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -551,7 +557,7 @@ input {
   }
   .main-page {
     width: 100%;
-    padding-top: 200px;
+    padding: 150px 0;
   }
   .lh-0-m {
     margin: 0 auto;
