@@ -14,9 +14,13 @@ html {
   overflow-x: hidden;
 }
 
+header {
+  font-size: 11px;
+}
+
 .img-main {
-  width: 50px;
-  height: 50px;
+  width: 24px;
+  height: 24px;
 }
 
 input[type=text]::-webkit-input-placeholder {
@@ -42,7 +46,7 @@ input[type=email]::-webkit-input-placeholder {
 }
 
 .search {
-  min-height: 40px;
+  min-height: 25px;
   padding-left: 20px;
   margin-left: 280px;
   line-height: 1.5rem;
@@ -88,6 +92,10 @@ input[type=email]::-webkit-input-placeholder {
 
 .m-200 {
   margin-bottom: 200px;
+}
+
+.m-t-0 {
+  margin-top: 0;
 }
 
 .free {
@@ -159,6 +167,11 @@ input[type=email]::-webkit-input-placeholder {
 
 .up {
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.up.now {
+  color: white;
 }
 
 .mobile-m {
@@ -323,11 +336,11 @@ input {
     margin: 0 auto;
   }
   .lh-0 {
-    line-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .main-page {
     width: 1240px;
-    padding-bottom: 200px;
   }
   a {
     text-decoration: none;
@@ -347,7 +360,7 @@ input {
     margin-right: 0;
   }
   .search {
-    min-width: 270px;
+    width: 250px;
   }
   .button {
     min-width: 570px;
@@ -508,9 +521,6 @@ input {
   }
   .img-main {
     margin-bottom: 20px;
-  }
-  .m-0 {
-    margin: 0;
   }
   .m-20 {
     margin-top: 20px;
