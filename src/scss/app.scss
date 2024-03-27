@@ -135,6 +135,7 @@
 
   .marg-50 {
     margin-bottom: 50px;
+    margin-top: 0px;
   }
 
   .count {
@@ -170,15 +171,15 @@
   .news-author {
     display: flex;
     width: 35%;
-    justify-content: space-between;
     
     .size-19 {
       height: 19px;
       width: 19px;
-      margin-top: 16px;
+      margin-top: 15px;
     }
     p {
       font-size: 12px;
+      margin-left: 15px;
     }
   }
   .name-author {
@@ -200,6 +201,9 @@
     &-price {
       text-transform: uppercase;
     }
+  }
+  .bold {
+    font-weight: bold;
   }
   .mobile-m {
     margin: 0;
@@ -404,7 +408,7 @@
         border: 2px solid #cacaca;
         border-radius: 3px;
         color: #cacaca;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         font-size: 16px;
       }
 
@@ -413,7 +417,7 @@
         background: none;
         border: 2px solid #cacaca;
         color: #cacaca;
-        margin-top: 30px;
+        margin-top: 50px;
         padding: 16px 30px;
         float: left;
         text-transform: uppercase;
@@ -565,7 +569,7 @@
       justify-content: space-between;
 
       a {
-        line-height: 15px;
+        line-height: 17px;
       }
     }
 
@@ -591,6 +595,9 @@
     }
     .m-15 {
       margin-left: 15px;
+    }
+    .m-50 {
+      margin-bottom: 50px;
     }
 
     .pos {
@@ -642,10 +649,11 @@
       }
       &.album {
         width: 40%;
+        height: 53px;
         background: none;
         border: 2px solid #cacaca;
         color: #cacaca;
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 50px;
         padding: 16px 30px;
         float: left;
@@ -712,6 +720,7 @@
     }
     .card {
       width: 100%;
+      margin-top: 20px;
     }
     .free {
       margin-right: 0;

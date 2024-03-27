@@ -132,6 +132,7 @@ input[type=email]::-webkit-input-placeholder {
 
 .marg-50 {
   margin-bottom: 50px;
+  margin-top: 0px;
 }
 
 .count {
@@ -166,15 +167,15 @@ input[type=email]::-webkit-input-placeholder {
 .news-author {
   display: flex;
   width: 35%;
-  justify-content: space-between;
 }
 .news-author .size-19 {
   height: 19px;
   width: 19px;
-  margin-top: 16px;
+  margin-top: 15px;
 }
 .news-author p {
   font-size: 12px;
+  margin-left: 15px;
 }
 
 .name-author {
@@ -196,6 +197,10 @@ input[type=email]::-webkit-input-placeholder {
 }
 .up-price {
   text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .mobile-m {
@@ -398,7 +403,7 @@ input {
     border: 2px solid #cacaca;
     border-radius: 3px;
     color: #cacaca;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 16px;
   }
   .button.album {
@@ -406,7 +411,7 @@ input {
     background: none;
     border: 2px solid #cacaca;
     color: #cacaca;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 16px 30px;
     float: left;
     text-transform: uppercase;
@@ -536,7 +541,7 @@ input {
     justify-content: space-between;
   }
   .header a {
-    line-height: 15px;
+    line-height: 17px;
   }
   #page-description {
     padding: 100px 20px;
@@ -557,6 +562,9 @@ input {
   }
   .m-15 {
     margin-left: 15px;
+  }
+  .m-50 {
+    margin-bottom: 50px;
   }
   .pos {
     position: absolute;
@@ -599,10 +607,11 @@ input {
   }
   .button.album {
     width: 40%;
+    height: 53px;
     background: none;
     border: 2px solid #cacaca;
     color: #cacaca;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 50px;
     padding: 16px 30px;
     float: left;
@@ -659,6 +668,7 @@ input {
   }
   .card {
     width: 100%;
+    margin-top: 20px;
   }
   .free {
     margin-right: 0;
