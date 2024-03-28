@@ -52,6 +52,8 @@
     background: none;
   }
 
+
+
   .search {
     min-height: 25px;
     padding-left: 20px;
@@ -182,6 +184,10 @@
       margin-left: 15px;
     }
   }
+  .m-50 {
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
   .name-author {
     color: #F89202;
     text-transform: uppercase;
@@ -291,7 +297,7 @@
   }
   .footer {
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-    width: 100vw;
+    min-width: 1600px;
     
 
     & h2 {
@@ -310,6 +316,9 @@
       text-align: left;
       &.m-t-25 {
         margin-top: 25px;
+      }
+      &.m-a-20 {
+        margin-top: 20px;
       }
     }
 
@@ -365,8 +374,12 @@
     }
 
     #page-description {
+      background-image: url("../images/banner.png");
+      background-position: center;
+      background-size: cover;
+      min-width: 1600px;
       padding: 200px 0;
-      margin: 0 auto;
+      margin: 0;
     }
 
     .lh-0 {
@@ -417,7 +430,7 @@
         background: none;
         border: 2px solid #cacaca;
         color: #cacaca;
-        margin-top: 50px;
+        margin-top: 30px;
         padding: 16px 30px;
         float: left;
         text-transform: uppercase;
@@ -446,7 +459,6 @@
     }
     .news-item {
       display: flex;
-      padding-top: 30px;
     }
   
     .l-30 {
@@ -503,6 +515,9 @@
       display: flex;
       padding-bottom: 2rem;
       padding-top: 2rem;
+      a {
+        margin-top: 20px;
+      }
     }
 
     .back-artist {
@@ -555,12 +570,6 @@
     }
     
 
-    .back {
-      background-image: url("../images/banner.png");
-      background-position: center;
-      background-size: cover;
-    }
-
     .header {
       position: absolute;
       margin-top: 20px;
@@ -574,6 +583,10 @@
     }
 
     #page-description {
+      background-image: url("../images/banner.png");
+      background-position: center;
+      background-size: cover;
+      min-width: 400px;
       padding: 100px 20px;
       margin: 0 auto;
     }
@@ -595,9 +608,6 @@
     }
     .m-15 {
       margin-left: 15px;
-    }
-    .m-50 {
-      margin-bottom: 50px;
     }
 
     .pos {
@@ -653,7 +663,7 @@
         background: none;
         border: 2px solid #cacaca;
         color: #cacaca;
-        margin-top: 50px;
+        margin-top: 30px;
         margin-bottom: 50px;
         padding: 16px 30px;
         float: left;
@@ -680,16 +690,29 @@
     }
 
     #page-pricing {
+      min-width: 400px;
+      margin-left: 5px;
       padding-left: 20px;
       padding-right: 20px;
     }
 
     #page-news {
+      min-width: 400px;
+      margin-left: 5px;
       padding-left: 20px;
       padding-right: 20px;
     }
 
     #page-app {
+      min-width: 400px;
+      margin-left: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    #contacts {
+      min-width: 400px;
+      margin-left: -5px;
       padding-left: 20px;
       padding-right: 20px;
     }
@@ -703,7 +726,8 @@
     .center {
       width: 100%;
       text-align: center;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
+      margin-top: 0px;
     }
 
     .f-30 {
@@ -783,13 +807,18 @@
 
     .footer-grid{
       display: grid;
-      grid-template-rows: repeat(4, 250px);
+      grid-template-rows: repeat(4, 150px);
+      grid-row-gap: 15px;
       align-content: start;
       text-align: left;
       padding-top: 3rem;
       padding-bottom: 3rem;
       background-clip: border-box;
-      height: 950px;
+      height: 700px;
+      
+      h2 {
+        margin-top: 0px;
+      }
     }
 
     .flex-foot {
