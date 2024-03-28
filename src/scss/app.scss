@@ -17,6 +17,9 @@
   header {
     font-size: 11px;
     margin: 0;
+    a {
+      font-weight: 700;
+    }
   }
 
   @mixin margin-x($ml, $mr){
@@ -179,7 +182,7 @@
   #page-discography {
     padding-top: 100px;
   }
-  
+
   #page-similar {
     padding-top: 100px;
   }
@@ -479,7 +482,7 @@
         color: white;
         padding: 16px 40px;
         float: left;
-        text-transform: uppercase;
+        text-transform: none;
         font-size: 12.8px;
       }
     }
@@ -521,10 +524,8 @@
       display: flex;
       flex-direction: column;
       text-align: left;
-    }
-    .img-phone {
-      margin-left: 200px;
-      margin-right: 100px;
+      margin-right: 150px;
+      width: 50%;
     }
 
     
@@ -721,7 +722,7 @@
         color: white;
         padding: 16px 40px;
         float: left;
-        text-transform: uppercase;
+        text-transform: none;
         font-size: 12.8px;
       }
     }
