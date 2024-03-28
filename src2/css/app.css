@@ -1,0 +1,860 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto;
+  line-height: 1.5rem;
+  color: #cacaca;
+  background: #08020d;
+  overflow-x: hidden;
+}
+
+header {
+  font-size: 11px;
+  margin: 0;
+}
+header a {
+  font-weight: 700;
+}
+
+.img-main {
+  width: 24px;
+  height: 24px;
+}
+
+input[type=text]::-webkit-input-placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+input[type=email]::-webkit-input-placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+.main-page {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form {
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+  background: none;
+}
+
+.search {
+  min-height: 25px;
+  padding-left: 20px;
+  margin-left: 400px;
+  line-height: 1.5rem;
+  border-radius: 30px;
+  background-color: #3d3c3c;
+}
+
+.access {
+  font-weight: normal;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 20px 30px;
+  min-height: 50px;
+  background-color: #34c077;
+  color: white;
+  font-size: 13.3px;
+  text-transform: uppercase;
+}
+.button-artist {
+  width: 200px;
+  font-size: 12.8px;
+  border-radius: 5px;
+  padding: 20px 30px;
+  min-height: 50px;
+  background-color: #34c077;
+  color: white;
+  font-family: Roboto;
+  text-transform: uppercase;
+}
+
+.black-back {
+  background: #08020d;
+}
+
+.center {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card {
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.m-200 {
+  margin-bottom: 200px;
+}
+
+.m-t-0 {
+  margin-top: 0;
+}
+
+.free {
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+}
+
+.usual {
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+}
+
+.premium {
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.p-price {
+  margin-bottom: 50px;
+  font-size: 12.8px;
+}
+
+.marg-50 {
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.count {
+  line-height: 1em;
+  font-size: 70px;
+  vertical-align: bottom;
+  color: white;
+  font-weight: normal;
+}
+
+.rub {
+  vertical-align: top;
+  color: white;
+  font-weight: normal;
+}
+
+#page-pricing {
+  padding-top: 100px;
+}
+
+#page-news {
+  padding-top: 100px;
+}
+#page-news h3 {
+  color: white;
+}
+
+#page-app {
+  padding-top: 100px;
+}
+
+#page-popular-track {
+  padding-top: 100px;
+}
+
+#page-discography {
+  padding-top: 100px;
+}
+
+#page-similar {
+  padding-top: 100px;
+}
+
+.news-author {
+  display: flex;
+  width: 35%;
+}
+.news-author .size-19 {
+  height: 19px;
+  width: 19px;
+  margin-top: 15px;
+}
+.news-author p {
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.name-author {
+  color: #F89202;
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+.up {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.up.now {
+  color: white;
+}
+.up-price {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mobile-m {
+  margin: 0;
+}
+
+.line {
+  border-bottom: 2px #cacaca solid;
+}
+
+input {
+  color: white;
+}
+
+.artist-left {
+  text-align: left;
+}
+.artist-left .fans {
+  margin-bottom: 50px;
+}
+
+.purple {
+  background: #5328A1;
+}
+
+.orange {
+  background: #95390C;
+}
+
+.s-20 {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.flex-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.flex-btn p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.img-50 {
+  height: 50px;
+  width: 50px;
+}
+
+.p-white {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.m-00 {
+  margin: 0;
+  font-size: 12.8px;
+}
+
+.track-info {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.track-info h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.m-t-25 {
+  margin-top: 25px;
+}
+
+.m-l-auto {
+  margin-left: auto;
+}
+
+.head {
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.h3-disc {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.flex-disc {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-disc * h3 {
+  font-size: 18px;
+  text-transform: none;
+}
+.flex-disc * p {
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  min-width: 1600px;
+}
+.footer h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  text-decoration: none;
+  margin-top: 0;
+  text-align: left;
+}
+.footer a.m-t-25 {
+  margin-top: 25px;
+}
+.footer a.m-a-20 {
+  margin-top: 20px;
+}
+.footer p {
+  margin: 0;
+}
+
+@media screen and (min-width: 1001px) {
+  h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+  h2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+  .back {
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+  }
+  .header {
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header .form {
+    max-width: 570px;
+  }
+  .header a:hover {
+    color: white;
+  }
+  .m-h {
+    margin-top: 50px;
+  }
+  .flex {
+    display: flex;
+  }
+  #page-description {
+    padding: 200px 0;
+    margin: 0;
+  }
+  .lh-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .lh-0.m-h {
+    margin-top: 50px;
+  }
+  .main-page {
+    width: 1240px;
+  }
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: #cacaca;
+    margin-top: 16px;
+  }
+  .form {
+    min-width: 270px;
+  }
+  .m-25 {
+    margin-left: 25px;
+    margin-right: 0;
+  }
+  .m-100 {
+    margin-left: 100px;
+    margin-right: 0;
+  }
+  .m-50 {
+    margin-left: 50px;
+    margin-right: 0;
+  }
+  .search {
+    width: 250px;
+  }
+  .button {
+    min-width: 570px;
+  }
+  .button.sub {
+    min-width: 100%;
+    background: none;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+    color: #cacaca;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .button.album {
+    min-width: 20%;
+    background: none;
+    border: 2px solid #cacaca;
+    color: #cacaca;
+    margin-top: 30px;
+    padding: 16px 30px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .button.download {
+    min-width: 10%;
+    max-width: 138px;
+    background: #95390C;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 40px;
+    float: left;
+    text-transform: none;
+    font-size: 12.8px;
+  }
+  .subscription-page {
+    width: 1240px;
+    margin-top: 100px;
+  }
+  .f-24 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .news-item {
+    display: flex;
+  }
+  .l-30 {
+    margin-left: 30px;
+  }
+  .news-body {
+    text-align: left;
+  }
+  .news-body h3 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: normal;
+    margin-top: 0;
+  }
+  .text-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-page {
+    display: flex;
+  }
+  .description-mob {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 150px;
+    width: 50%;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 310px);
+    grid-column-gap: 50px;
+    align-content: start;
+    text-align: left;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-clip: border-box;
+  }
+  .grid-element {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-foot {
+    display: flex;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .flex-foot a {
+    margin-top: 20px;
+  }
+  .back-artist {
+    background-image: url("../images/Morten Harket.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .m-1-5 {
+    margin-left: 1.5rem;
+  }
+  .popular-track {
+    display: flex;
+    width: 575px;
+  }
+  .flex-track {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .s-250 {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+  .header {
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header a {
+    line-height: 17px;
+  }
+  .header a:hover {
+    color: white;
+  }
+  .back {
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+  }
+  #page-description {
+    min-width: 400px;
+    padding: 100px 20px;
+    margin: 0 auto;
+  }
+  .flex-for-mob {
+    display: flex;
+  }
+  a {
+    text-decoration: none;
+    color: #cacaca;
+  }
+  .img-main {
+    margin-bottom: 10px;
+  }
+  .m-20 {
+    margin-top: 20px;
+  }
+  .m-15 {
+    margin-left: 15px;
+  }
+  .pos {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+  }
+  .flex-m {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+    text-align: left;
+  }
+  .search {
+    width: 93%;
+    margin-left: 0;
+  }
+  .main-page {
+    width: 100%;
+  }
+  .description {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .description-artist {
+    padding-top: 130px;
+    padding-bottom: 280px;
+  }
+  .lh-0-m {
+    margin: 0 auto;
+  }
+  .form {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+  .button.sub {
+    min-width: 100%;
+    background: none;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+    color: #cacaca;
+    margin-bottom: 50px;
+  }
+  .button.album {
+    width: 40%;
+    height: 53px;
+    background: none;
+    border: 2px solid #cacaca;
+    color: #cacaca;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 16px 30px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .button.download {
+    min-width: 10%;
+    max-width: 138px;
+    background: #95390C;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 40px;
+    float: left;
+    text-transform: none;
+    font-size: 12.8px;
+  }
+  .subscription-page {
+    width: 100%;
+    margin-top: 100px;
+    padding: 100px 20px 100px 0;
+  }
+  #page-pricing {
+    min-width: 400px;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #page-news {
+    min-width: 400px;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #page-app {
+    min-width: 400px;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #contacts {
+    min-width: 400px;
+    margin-left: -5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .flex-s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .center {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  .f-30 {
+    font-weight: normal;
+  }
+  .rub {
+    font-size: 38px;
+    vertical-align: middle;
+  }
+  .count {
+    vertical-align: top;
+  }
+  .card {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .free {
+    margin-right: 0;
+  }
+  .usual {
+    margin-right: 0;
+  }
+  .news-body {
+    text-align: left;
+  }
+  .news-body h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    margin-top: 0;
+    text-transform: capitalize;
+    color: white;
+  }
+  .marg-50 {
+    margin-bottom: 50px;
+  }
+  .news-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-item.ozzy {
+    flex-direction: column-reverse;
+  }
+  .text-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-author {
+    flex-direction: row;
+    width: 55%;
+  }
+  .news-footer {
+    font-size: 13px;
+  }
+  .grid-element {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .description-mob {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-rows: repeat(4, 150px);
+    grid-row-gap: 15px;
+    align-content: start;
+    text-align: left;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-clip: border-box;
+    height: 700px;
+  }
+  .footer-grid h2 {
+    margin-top: 0px;
+  }
+  .flex-foot {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: left;
+  }
+  .last-grid {
+    height: 100px;
+  }
+  .mm-25 {
+    margin-left: 25px;
+    margin-right: 0;
+  }
+  .back-artist {
+    background-image: url("../images/Morten Harket.png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+  }
+  .flex-btns {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+  .m-1-5 {
+    margin-top: 1.5rem;
+  }
+  .mm-12 {
+    margin-left: 12.5px;
+    margin-right: 0;
+  }
+  .popular-track {
+    display: flex;
+    width: 100%;
+  }
+  .m-tt-15 {
+    margin-top: 15px;
+  }
+  .s-137 {
+    width: 137px;
+    height: 137px;
+  }
+  .w-137 {
+    width: 137px;
+  }
+  .artist-400-px {
+    margin-left: 20px;
+  }
+  .mm-50 {
+    margin-left: 50px;
+    margin-right: 0;
+  }
+  .m-tt-25 {
+    margin-top: 25px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
