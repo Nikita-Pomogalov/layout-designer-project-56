@@ -39,11 +39,15 @@
   input[type=text]::-webkit-input-placeholder {
     color: white;
     font-weight: bold;
+    font-family: Roboto;
+    font-size: 14px;
   }
 
   input[type=email]::-webkit-input-placeholder {
     color: white;
     font-weight: bold;
+    font-family: Roboto;
+    font-size: 14px;
   }
 
   .main-page {
@@ -64,8 +68,8 @@
 
   .search {
     border: none;
-    height: 25px;
-    padding-left: 20px;
+    height: 30px;
+    padding-left: 10px;
     margin-left: 450px;
     line-height: 1.5rem;
     border-radius: 30px;
@@ -79,7 +83,7 @@
     border-radius: 5px;
     padding: 20px 30px;
     min-height: 50px;
-    background-color: #34c077;
+    background-color: #34c176;
     color: white;
     font-size: 13.3px;
     text-transform: uppercase;
@@ -640,8 +644,9 @@
     }
 
     .search {
-      width: 93%;
+      width: 88%;
       margin-left: 0;
+
     }
 
 
