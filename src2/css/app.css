@@ -19,9 +19,6 @@ header {
   font-size: 11px;
   margin: 0;
 }
-header a {
-  font-weight: 700;
-}
 
 .back {
   background-image: url("../images/banner.png");
@@ -60,9 +57,10 @@ input[type=email]::-webkit-input-placeholder {
 }
 
 .search {
-  min-height: 25px;
+  border: none;
+  height: 25px;
   padding-left: 20px;
-  margin-left: 400px;
+  margin-left: 450px;
   line-height: 1.5rem;
   border-radius: 30px;
   background-color: #3d3c3c;
@@ -80,6 +78,7 @@ input[type=email]::-webkit-input-placeholder {
   color: white;
   font-size: 13.3px;
   text-transform: uppercase;
+  border: none;
 }
 .button-artist {
   width: 200px;
@@ -205,10 +204,6 @@ input[type=email]::-webkit-input-placeholder {
 }
 .up-price {
   text-transform: uppercase;
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .mobile-m {
@@ -567,13 +562,14 @@ input {
   }
   .header a {
     line-height: 17px;
+    font-weight: bold;
   }
   .header a:hover {
     color: white;
   }
   #page-description {
-    min-width: 400px;
-    padding: 100px 20px;
+    width: 100%;
+    padding: 100px 40px 100px 20px;
     margin: 0 auto;
   }
   .flex-for-mob {
@@ -584,7 +580,7 @@ input {
     color: #cacaca;
   }
   .img-main {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .m-20 {
     margin-top: 20px;
@@ -594,7 +590,7 @@ input {
   }
   .pos {
     position: absolute;
-    left: 100px;
+    left: 65px;
     top: 0px;
   }
   .flex-m {
