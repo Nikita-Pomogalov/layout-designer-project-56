@@ -12,6 +12,7 @@ html {
   color: #cacaca;
   background: #08020d;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -20,6 +21,13 @@ header {
 }
 header a {
   font-weight: 700;
+}
+
+.back {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
 }
 
 .img-main {
@@ -153,10 +161,6 @@ input[type=email]::-webkit-input-placeholder {
   font-weight: normal;
 }
 
-#page-pricing {
-  padding-top: 100px;
-}
-
 #page-news {
   padding-top: 100px;
 }
@@ -164,19 +168,7 @@ input[type=email]::-webkit-input-placeholder {
   color: white;
 }
 
-#page-app {
-  padding-top: 100px;
-}
-
-#page-popular-track {
-  padding-top: 100px;
-}
-
-#page-discography {
-  padding-top: 100px;
-}
-
-#page-similar {
+.p-t-100 {
   padding-top: 100px;
 }
 
@@ -380,12 +372,6 @@ input {
     text-transform: uppercase;
     color: white;
   }
-  .back {
-    background-image: url("../images/banner.png");
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-  }
   .header {
     position: absolute;
     margin-top: 20px;
@@ -584,12 +570,6 @@ input {
   }
   .header a:hover {
     color: white;
-  }
-  .back {
-    background-image: url("../images/banner.png");
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
   }
   #page-description {
     min-width: 400px;

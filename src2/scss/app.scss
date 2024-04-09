@@ -12,6 +12,7 @@
     color: #cacaca;
     background: #08020d;
     overflow-x: hidden;
+     scroll-behavior: smooth;
   }
 
   header {
@@ -20,6 +21,12 @@
     a {
       font-weight: 700;
     }
+  }
+  .back {
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
   }
 
   @mixin margin-x($ml, $mr){
@@ -159,9 +166,6 @@
     font-weight: normal;
   }
 
-  #page-pricing {
-    padding-top: 100px;
-  }
 
   #page-news {
     padding-top: 100px;
@@ -171,19 +175,7 @@
     }
   }
 
-  #page-app {
-    padding-top: 100px;
-  }
-
-  #page-popular-track {
-    padding-top: 100px;
-  }
-
-  #page-discography {
-    padding-top: 100px;
-  }
-
-  #page-similar {
+  .p-t-100 {
     padding-top: 100px;
   }
 
@@ -379,12 +371,7 @@
       color: white;
     }
 
-    .back {
-      background-image: url("../images/banner.png");
-      background-position: center;
-      background-size: cover;
-      width: 100vw;
-    }
+
 
     .header {
       position: absolute;
@@ -615,13 +602,6 @@
       a:hover {
         color: white;
       }
-    }
-
-    .back {
-      background-image: url("../images/banner.png");
-      background-position: center;
-      background-size: cover;
-      width: 100vw;
     }
     #page-description {
       min-width: 400px;
