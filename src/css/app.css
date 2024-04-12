@@ -6,8 +6,12 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 html {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.5rem;
   color: #cacaca;
   background: #08020d;
@@ -44,11 +48,6 @@ input[type=email]::-webkit-input-placeholder {
   font-weight: bold;
   font-family: Roboto;
   font-size: 14px;
-}
-
-.main-page {
-  text-align: center;
-  margin: 0 auto;
 }
 
 .form {
@@ -101,15 +100,25 @@ input[type=email]::-webkit-input-placeholder {
 }
 
 .center {
+  margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
 }
 
 .card {
+  height: 615px;
   padding: 0 1.5rem;
   border-radius: 1rem;
   width: 30%;
-  margin-bottom: 30px;
+}
+.card h2 {
+  margin: 0;
+}
+.card p {
+  margin: 0;
+  height: 57px;
+  line-height: 150%;
+  min-width: 318px;
 }
 
 .m-200 {
@@ -152,27 +161,22 @@ input[type=email]::-webkit-input-placeholder {
 
 .count {
   line-height: 1em;
-  font-size: 70px;
+  font-size: 64px;
   vertical-align: bottom;
   color: white;
   font-weight: normal;
 }
 
 .rub {
+  font-size: 32px;
+  line-height: 150%;
   vertical-align: top;
   color: white;
   font-weight: normal;
 }
 
-#page-news {
-  padding-top: 100px;
-}
-#page-news h3 {
-  color: white;
-}
-
-.p-t-100 {
-  padding-top: 100px;
+.price {
+  margin: 0;
 }
 
 .news-author {
@@ -330,7 +334,6 @@ input {
 
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-  min-width: 1600px;
 }
 .footer h2 {
   font-size: 18px;
@@ -390,6 +393,9 @@ input {
   .flex {
     display: flex;
   }
+  .flex.m-40 {
+    margin-bottom: 40px;
+  }
   #page-description {
     padding: 200px 0;
     margin: 0;
@@ -401,8 +407,45 @@ input {
   .lh-0.m-h {
     margin-top: 50px;
   }
-  .main-page {
-    width: 1240px;
+  .section {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
+  }
+  .section-description {
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
+  }
+  .section-news {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: content-box;
+    max-width: 1200px;
+  }
+  .section-news h3 {
+    color: #fff;
+  }
+  .section-mobile {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: content-box;
+    max-width: 1200px;
+  }
+  .section-footer {
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
   }
   a {
     text-decoration: none;
@@ -436,8 +479,9 @@ input {
     background: none;
     border: 2px solid #cacaca;
     border-radius: 3px;
-    color: #cacaca;
-    margin-bottom: 30px;
+    color: #fff;
+    margin-bottom: 70px;
+    margin-top: 40px;
     font-size: 16px;
   }
   .button.album {
@@ -472,9 +516,7 @@ input {
   }
   .news-item {
     display: flex;
-  }
-  .l-30 {
-    margin-left: 30px;
+    gap: 50px;
   }
   .news-body {
     text-align: left;
@@ -488,6 +530,7 @@ input {
   .text-item {
     display: flex;
     flex-direction: column;
+    width: 570px;
   }
   .mobile-page {
     display: flex;
@@ -501,8 +544,8 @@ input {
   }
   .footer-grid {
     display: grid;
-    grid-template-columns: repeat(4, 310px);
-    grid-column-gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
     align-content: start;
     text-align: left;
     padding-top: 3rem;
@@ -579,6 +622,14 @@ input {
   .flex-for-mob {
     display: flex;
   }
+  .section {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: content-box;
+  }
   a {
     text-decoration: none;
     color: #cacaca;
@@ -607,9 +658,6 @@ input {
   .search {
     width: 88%;
     margin-left: 0;
-  }
-  .main-page {
-    width: 100%;
   }
   .description {
     padding-top: 150px;
@@ -689,11 +737,6 @@ input {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .flex-s {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .center {
     width: 100%;
     text-align: center;
@@ -704,13 +747,15 @@ input {
     font-weight: normal;
   }
   .rub {
-    font-size: 38px;
+    font-size: 32px;
+    line-height: 150%;
     vertical-align: middle;
   }
   .count {
     vertical-align: top;
   }
   .card {
+    height: 615px;
     width: 100%;
     margin-top: 20px;
   }
