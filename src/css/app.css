@@ -28,7 +28,6 @@ header {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
-  width: 100vw;
 }
 
 .img-main {
@@ -51,8 +50,7 @@ input[type=email]::-webkit-input-placeholder {
 }
 
 .form {
-  min-height: 50px;
-  padding-left: 20px;
+  padding: 16px 0 15px 20px;
   margin-bottom: 1.5rem;
   border: 2px solid #cacaca;
   border-radius: 3px;
@@ -118,11 +116,14 @@ input[type=email]::-webkit-input-placeholder {
   margin: 0;
   height: 57px;
   line-height: 150%;
-  min-width: 318px;
 }
 
-.m-200 {
+.main-h {
+  font-size: 16px;
   margin-bottom: 200px;
+  padding-top: 20px;
+  margin-top: 0;
+  font-weight: normal;
 }
 
 .m-t-0 {
@@ -352,8 +353,8 @@ input {
 .footer a.m-t-25 {
   margin-top: 25px;
 }
-.footer a.m-a-20 {
-  margin-top: 20px;
+.footer a.m-a-16 {
+  margin-top: 16px;
 }
 .footer p {
   margin: 0;
@@ -416,6 +417,14 @@ input {
     color: #fff;
   }
   .section-description {
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
+  }
+  .section-pricing {
+    padding: 100px 20px 0;
     margin: 0 auto;
     text-align: center;
     box-sizing: content-box;
@@ -614,11 +623,6 @@ input {
   .header a:hover {
     color: white;
   }
-  #page-description {
-    width: 100%;
-    padding: 100px 20px;
-    margin: 0 auto;
-  }
   .flex-for-mob {
     display: flex;
   }
@@ -626,9 +630,32 @@ input {
     padding: 100px 20px 0;
     margin: 0 auto;
     text-align: center;
-    margin: 0 auto;
     width: 100%;
     box-sizing: content-box;
+  }
+  .section-description {
+    padding: 250px 20px 200px;
+    text-align: center;
+    color: #fff;
+  }
+  .section-pricing {
+    padding: 100px 20px 0;
+    text-align: center;
+    margin: 0;
+  }
+  .section-news {
+    padding: 100px 20px 0;
+    text-align: center;
+    margin: 0;
+  }
+  .section-mobile {
+    padding: 100px 20px 0;
+    text-align: center;
+    margin: 0;
+  }
+  .section-footer {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   a {
     text-decoration: none;
@@ -656,12 +683,8 @@ input {
     text-align: left;
   }
   .search {
-    width: 88%;
+    width: 100%;
     margin-left: 0;
-  }
-  .description {
-    padding-top: 150px;
-    padding-bottom: 100px;
   }
   .description-artist {
     padding-top: 130px;
@@ -682,7 +705,8 @@ input {
     border: 2px solid #cacaca;
     border-radius: 3px;
     color: #cacaca;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    margin-top: 40px;
   }
   .button.album {
     width: 40%;
@@ -713,34 +737,10 @@ input {
     margin-top: 100px;
     padding: 100px 20px 100px 0;
   }
-  #page-pricing {
-    min-width: 400px;
-    margin-left: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #page-news {
-    min-width: 400px;
-    margin-left: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #page-app {
-    min-width: 400px;
-    margin-left: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #contacts {
-    min-width: 400px;
-    margin-left: -5px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .center {
     width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 0px;
   }
   .f-30 {
@@ -755,9 +755,17 @@ input {
     vertical-align: top;
   }
   .card {
-    height: 615px;
+    height: 595px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
+  }
+  .card.first {
+    height: 595px;
+    width: 100%;
+    margin-top: 0;
+  }
+  .information {
+    margin-top: 45px;
   }
   .free {
     margin-right: 0;
@@ -777,6 +785,9 @@ input {
     color: white;
   }
   .marg-50 {
+    margin-bottom: 50px;
+  }
+  .order {
     margin-bottom: 50px;
   }
   .news-item {
@@ -813,7 +824,7 @@ input {
   .footer-grid {
     display: grid;
     grid-template-rows: repeat(4, 150px);
-    grid-row-gap: 15px;
+    grid-row-gap: 30px;
     align-content: start;
     text-align: left;
     padding-top: 3rem;
