@@ -233,12 +233,6 @@
     color: white;
   }
 
-  .artist-left {
-    text-align: left;
-    .fans {
-      margin-bottom: 50px;
-    }
-  }
   
   .purple {
     background: #5328A1;
@@ -296,9 +290,6 @@
   .m-t-25 {
     margin-top: 25px;
   }
-  .m-l-auto {
-    margin-left: auto;
-  }
   .head {
     margin-bottom: 50px;
     margin-top: 0px;
@@ -347,9 +338,6 @@
       text-align: left;
       &.m-t-25 {
         margin-top: 25px;
-      }
-      &.m-a-16 {
-        margin-top: 16px;
       }
     }
 
@@ -409,11 +397,7 @@
     }
 
     .lh-0 {
-      margin-top: 0;
-      margin-bottom: 0;
-      &.m-h {
-        margin-top: 50px;
-      }
+      margin: 0;
     }
 
     .section {
@@ -465,6 +449,46 @@
       }
     }
 
+    .section__artist {
+      padding: 100px 20px 0;
+      margin: 0 auto;
+      text-align: left;
+      box-sizing: content-box;
+      max-width: 1200px;
+      color: #fff;
+      &-description {
+        padding: 0 20px;
+        margin: 0 auto;
+        text-align: left;
+        box-sizing: content-box;
+        max-width: 1200px;
+        color: #fff;
+      }
+      &-track {
+        padding: 100px 20px 0;
+        margin: 0 auto;
+        text-align: left;
+        box-sizing: content-box;
+        max-width: 1200px;
+        color: #fff;
+      }
+      &-disk {
+        padding: 100px 20px 0;
+        margin: 0 auto;
+        text-align: left;
+        box-sizing: content-box;
+        max-width: 1200px;
+        color: #fff;
+      }
+      &-similar {
+        padding: 100px 20px 0;
+        margin: 0 auto;
+        text-align: left;
+        box-sizing: content-box;
+        max-width: 1200px;
+        color: #fff;
+      }
+    }
 
     a {
       text-decoration: none;
@@ -529,6 +553,7 @@
         font-size: 12.8px;
       }
     }
+    
 
     .subscription-page {
       width: 1240px;
@@ -592,9 +617,6 @@
       display: flex;
       padding-bottom: 2rem;
       padding-top: 2rem;
-      a {
-        margin-top: 20px;
-      }
     }
 
     .back-artist {
@@ -602,9 +624,6 @@
       background-position: center;
       background-size: cover;
      
-    }
-    .m-1-5 {
-      margin-left: 1.5rem;
     }
     .popular-track {
       display: flex;
@@ -694,6 +713,38 @@
       }
     }
 
+    .section__artist {
+      padding: 100px 20px 0;
+      margin: 0 auto;
+      text-align: left;
+      width: 100%;
+      box-sizing: content-box;
+      &-description {
+        padding: 225px 20px;
+        text-align: left;
+        color: #fff;
+      }
+      &-track {
+        padding: 100px 20px 0;
+        text-align: left;
+        box-sizing: content-box;
+      }
+      &-disk {
+        padding: 100px 20px 0;
+        text-align: left;
+        box-sizing: content-box;
+      }
+      &-similar {
+        padding: 100px 20px 0;
+        text-align: left;
+        box-sizing: content-box;
+      }
+    }
+
+    .right {
+      margin-left: auto;
+    }
+
     a {
       text-decoration: none;
       color: #cacaca;
@@ -734,8 +785,8 @@
       padding-bottom: 280px;
     }
 
-    .lh-0-m {
-      margin: 0 auto;
+    .lh-0 {
+      margin: 0;
     }
 
     .form {
@@ -761,7 +812,6 @@
         border: 2px solid #cacaca;
         color: #cacaca;
         margin-top: 30px;
-        margin-bottom: 50px;
         padding: 16px 30px;
         float: left;
         text-transform: uppercase;
@@ -778,6 +828,16 @@
         text-transform: none;
         font-size: 12.8px;
       }
+    }
+
+    .purple {
+      margin-top: 50px;
+      border: none;
+    }
+
+    .orange {
+      margin-top: 30px;
+      border: none;
     }
 
     .subscription-page {
@@ -903,6 +963,9 @@
       padding-bottom: 2rem;
       padding-top: 2rem;
       text-align: left;
+      .m-a-16 {
+        margin-top: 16px;
+      }
     }
 
     .last-grid {
@@ -944,9 +1007,6 @@
     }
     .w-137{
       width: 137px;
-    }
-    .artist-400-px {
-      margin-left: 20px;
     }
     .mm-50 {
       @include margin-x(50px, 0);

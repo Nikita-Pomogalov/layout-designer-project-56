@@ -227,13 +227,6 @@ input {
   color: white;
 }
 
-.artist-left {
-  text-align: left;
-}
-.artist-left .fans {
-  margin-bottom: 50px;
-}
-
 .purple {
   background: #5328A1;
 }
@@ -298,10 +291,6 @@ input {
   margin-top: 25px;
 }
 
-.m-l-auto {
-  margin-left: auto;
-}
-
 .head {
   margin-bottom: 50px;
   margin-top: 0px;
@@ -353,9 +342,6 @@ input {
 .footer a.m-t-25 {
   margin-top: 25px;
 }
-.footer a.m-a-16 {
-  margin-top: 16px;
-}
 .footer p {
   margin: 0;
 }
@@ -402,11 +388,7 @@ input {
     margin: 0;
   }
   .lh-0 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .lh-0.m-h {
-    margin-top: 50px;
+    margin: 0;
   }
   .section {
     padding: 100px 20px 0;
@@ -452,6 +434,46 @@ input {
     padding: 0 20px;
     margin: 0 auto;
     text-align: center;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
+  }
+  .section__artist {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
+  }
+  .section__artist-description {
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
+  }
+  .section__artist-track {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
+  }
+  .section__artist-disk {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: content-box;
+    max-width: 1200px;
+    color: #fff;
+  }
+  .section__artist-similar {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: left;
     box-sizing: content-box;
     max-width: 1200px;
     color: #fff;
@@ -570,16 +592,10 @@ input {
     padding-bottom: 2rem;
     padding-top: 2rem;
   }
-  .flex-foot a {
-    margin-top: 20px;
-  }
   .back-artist {
     background-image: url("../images/Morten Harket.png");
     background-position: center;
     background-size: cover;
-  }
-  .m-1-5 {
-    margin-left: 1.5rem;
   }
   .popular-track {
     display: flex;
@@ -657,6 +673,36 @@ input {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .section__artist {
+    padding: 100px 20px 0;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    box-sizing: content-box;
+  }
+  .section__artist-description {
+    padding: 225px 20px;
+    text-align: left;
+    color: #fff;
+  }
+  .section__artist-track {
+    padding: 100px 20px 0;
+    text-align: left;
+    box-sizing: content-box;
+  }
+  .section__artist-disk {
+    padding: 100px 20px 0;
+    text-align: left;
+    box-sizing: content-box;
+  }
+  .section__artist-similar {
+    padding: 100px 20px 0;
+    text-align: left;
+    box-sizing: content-box;
+  }
+  .right {
+    margin-left: auto;
+  }
   a {
     text-decoration: none;
     color: #cacaca;
@@ -690,8 +736,8 @@ input {
     padding-top: 130px;
     padding-bottom: 280px;
   }
-  .lh-0-m {
-    margin: 0 auto;
+  .lh-0 {
+    margin: 0;
   }
   .form {
     width: 100%;
@@ -715,7 +761,6 @@ input {
     border: 2px solid #cacaca;
     color: #cacaca;
     margin-top: 30px;
-    margin-bottom: 50px;
     padding: 16px 30px;
     float: left;
     text-transform: uppercase;
@@ -731,6 +776,14 @@ input {
     float: left;
     text-transform: none;
     font-size: 12.8px;
+  }
+  .purple {
+    margin-top: 50px;
+    border: none;
+  }
+  .orange {
+    margin-top: 30px;
+    border: none;
   }
   .subscription-page {
     width: 100%;
@@ -842,6 +895,9 @@ input {
     padding-top: 2rem;
     text-align: left;
   }
+  .flex-foot .m-a-16 {
+    margin-top: 16px;
+  }
   .last-grid {
     height: 100px;
   }
@@ -880,9 +936,6 @@ input {
   }
   .w-137 {
     width: 137px;
-  }
-  .artist-400-px {
-    margin-left: 20px;
   }
   .mm-50 {
     margin-left: 50px;
