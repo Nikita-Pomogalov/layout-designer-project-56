@@ -127,10 +127,13 @@
     }
   }
 
+  .p-news {
+    margin-top: 0;
+  }
   .main-h {
     font-size: 16px;
-    margin-bottom: 200px;
-    padding-top: 20px;
+    margin-bottom: 210px;
+    padding-top: 30px;
     margin-top: 0;
     font-weight: normal;
   }
@@ -180,6 +183,7 @@
     vertical-align: bottom;
     color: white;
     font-weight: normal;
+    margin-right: 10px;
   }
   
   .rub {
@@ -198,6 +202,7 @@
   .right {
     margin-left: auto;
     color: #cacaca;
+    font-size: 12.8px;
   }
 
   .news-author {
@@ -312,7 +317,7 @@
     margin-top: 25px;
   }
   .head {
-    margin-bottom: 50px;
+    margin-bottom: 48px;
     margin-top: 0px;
   }
   .h3-disc {
@@ -321,7 +326,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-    margin-top: 17px;
+    margin-top: 10px;
     margin-bottom: 0;
   }
   .flex-disc {
@@ -353,7 +358,6 @@
     & a {
       font-size: 16px;
       line-height: 24px;
-      font-weight: normal;
       text-decoration: none;
       margin-top: 0;
       text-align: left;
@@ -418,7 +422,7 @@
     }
 
     .description-artist {
-      padding: 250px 0;
+      padding: 250px 0 225px;
       margin: 0;
     }
 
@@ -530,8 +534,8 @@
       @include margin-x(25px, 0)
     }
 
-    .m-100{
-      @include margin-x(100px, 0)
+    .m-91{
+      @include margin-x(91px, 0)
     }
 
     .m-50 {
@@ -548,24 +552,12 @@
       &.sub {
         min-width: 100%;
         background: none;
-        border: 2px solid #cacaca;
+        border: 1px solid #cacaca;
         border-radius: 3px;
         color: #fff;
         margin-bottom: 70px;
         margin-top: 40px;
         font-size: 16px;
-      }
-
-      &.album {
-        min-width: 20%;
-        background: none;
-        border: 2px solid #cacaca;
-        color: #cacaca;
-        margin-top: 30px;
-        padding: 16px 30px;
-        float: left;
-        text-transform: uppercase;
-        font-size: 13px;
       }
       &.download {
         min-width: 10%;
@@ -580,6 +572,18 @@
       }
     }
     
+    .album {
+      min-width: 20%;
+      background: none;
+      border: 1px solid #cacaca;
+      color: #cacaca;
+      margin-top: 25px;
+      padding: 16px 30px;
+      float: left;
+      text-transform: uppercase;
+      font-size: 13px;
+      border-radius: 5px;
+    }
 
     .subscription-page {
       width: 1240px;
@@ -640,7 +644,7 @@
 
     .flex-foot {
       display: flex;
-      padding: 50px 20px;
+      padding: 48px 20px;
     }
 
     .back-artist {
@@ -712,7 +716,7 @@
       width: 100%;
       box-sizing: content-box;
       &-description {
-        padding: 250px 20px 200px;
+        padding: 250px 20px 190px;
         text-align: center;
         color: #fff;
       }
@@ -817,27 +821,11 @@
       &.sub {
         min-width: 100%;
         background: none;
-        border: 2px solid #cacaca;
+        border: 1px solid #cacaca;
         border-radius: 3px;
         color: #cacaca;
         margin-bottom: 70px;
         margin-top: 40px;
-      }
-      &.album {
-        width: 40%;
-        height: 53px;
-        background: none;
-        border: 1px solid #cacaca;
-        color: #cacaca;
-        margin-top: 30px;
-        margin-bottom: 65px;
-        padding: 16px 30px;
-        float: left;
-        text-transform: uppercase;
-        font-size: 13px;
-        &.second{
-          margin-bottom: 0;
-        }
       }
       &.download {
         min-width: 10%;
@@ -850,6 +838,27 @@
         text-transform: none;
         font-size: 12.8px;
       }
+    }
+    .album {
+      height: 53px;
+      background: none;
+      border: 1px solid #cacaca;
+      color: #cacaca;
+      margin-top: 25px;
+      margin-bottom: 65px;
+      padding: 16px 30px;
+      float: left;
+      text-transform: uppercase;
+      font-size: 13px;
+      border-radius: 5px;
+      &.second{
+        margin-bottom: 0;
+      }
+    }
+
+    .main-h {
+      margin-bottom: 180px;
+      padding-top: 16px;
     }
 
     .purple {
@@ -886,6 +895,7 @@
 
     .count {
       vertical-align: top;
+      margin-right: 16px;
     }
     .card {
       height: 595px;
@@ -986,7 +996,7 @@
     .flex-foot {
       display: flex;
       flex-direction: column;
-      padding-bottom: 2rem;
+      padding-bottom: 30px;
       padding-top: 2rem;
       text-align: left;
       .m-a-16 {
