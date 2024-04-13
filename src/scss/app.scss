@@ -166,6 +166,13 @@
     margin-bottom: 50px;
     margin-top: 0px;
   }
+  .eminem {
+    margin-bottom: 65px;
+  }
+
+  .fans {
+    margin-bottom: 50px;
+  }
 
   .count {
     line-height: 1em;
@@ -188,6 +195,10 @@
     margin: 0;
   }
 
+  .right {
+    margin-left: auto;
+    color: #cacaca;
+  }
 
   .news-author {
     display: flex;
@@ -236,9 +247,11 @@
   
   .purple {
     background: #5328A1;
+    border: none;
   }
   .orange {
     background: #95390C;
+    border: none;
   }
   .s-20 {
     width: 20px;
@@ -254,6 +267,11 @@
       margin-bottom: 0;
     }
   }
+  .flex-choose {
+    display: flex;
+    gap: 30px;
+  }
+
   .img-50 {
     height: 50px;
     width: 50px;
@@ -269,6 +287,9 @@
   .m-00 {
     margin: 0;
     font-size: 12.8px;
+  }
+  .gray {
+    color: #cacaca;
   }
   .track-info {
     margin-left: 20px;
@@ -296,12 +317,12 @@
   }
   .h3-disc {
     font-size: 12.8px;
-    line-height: 19.2px;
+    line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-    margin-bottom: 0px;
-    margin-top: 5px;
+    margin-top: 17px;
+    margin-bottom: 0;
   }
   .flex-disc {
     display: flex;
@@ -391,8 +412,13 @@
         }
     }
 
-    #page-description {
+    .description-main {
       padding: 200px 0;
+      margin: 0;
+    }
+
+    .description-artist {
+      padding: 250px 0;
       margin: 0;
     }
 
@@ -543,7 +569,7 @@
       }
       &.download {
         min-width: 10%;
-        max-width: 138px;
+        max-width: 128px;
         background: #95390C;
         border-radius: 30px;
         color: white;
@@ -601,8 +627,7 @@
       grid-column-gap: 40px;
       align-content: start;
       text-align: left;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
+      padding: 60px 20px;
       background-clip: border-box ;
     }
 
@@ -615,8 +640,7 @@
 
     .flex-foot {
       display: flex;
-      padding-bottom: 2rem;
-      padding-top: 2rem;
+      padding: 50px 20px;
     }
 
     .back-artist {
@@ -741,9 +765,6 @@
       }
     }
 
-    .right {
-      margin-left: auto;
-    }
 
     a {
       text-decoration: none;
@@ -751,7 +772,7 @@
     }
 
     .img-main {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .m-20 {
@@ -780,10 +801,7 @@
       margin-left: 0;
     }
 
-    .description-artist {
-      padding-top: 130px;
-      padding-bottom: 280px;
-    }
+
 
     .lh-0 {
       margin: 0;
@@ -809,17 +827,21 @@
         width: 40%;
         height: 53px;
         background: none;
-        border: 2px solid #cacaca;
+        border: 1px solid #cacaca;
         color: #cacaca;
         margin-top: 30px;
+        margin-bottom: 65px;
         padding: 16px 30px;
         float: left;
         text-transform: uppercase;
         font-size: 13px;
+        &.second{
+          margin-bottom: 0;
+        }
       }
       &.download {
         min-width: 10%;
-        max-width: 138px;
+        max-width: 128px;
         background: #95390C;
         border-radius: 30px;
         color: white;
@@ -831,12 +853,10 @@
     }
 
     .purple {
-      margin-top: 50px;
       border: none;
     }
 
     .orange {
-      margin-top: 30px;
       border: none;
     }
 
@@ -901,6 +921,9 @@
     .marg-50 {
       margin-bottom: 50px;
     }
+    .eminem {
+      margin-bottom: 50px;
+    }
     .order {
       margin-bottom: 50px;
     }
@@ -943,18 +966,21 @@
 
     .footer-grid{
       display: grid;
-      grid-template-rows: repeat(4, 150px);
+      grid-template-rows: repeat(2, 1fr) auto auto;
       grid-row-gap: 30px;
       align-content: start;
       text-align: left;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
+      padding-top: 62px;
+      padding-bottom: 72px;
       background-clip: border-box;
-      height: 700px;
       
       h2 {
         margin-top: 0px;
       }
+    }
+    .footer-img {
+      display: flex;
+      gap: 24px;
     }
 
     .flex-foot {
@@ -1013,6 +1039,11 @@
     }
     .m-tt-25 {
       margin-top: 25px;
+    }
+
+    .flex-choose {
+      display: flex;
+      flex-direction: column;
     }
   }
 
