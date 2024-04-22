@@ -379,6 +379,7 @@
   .about {
     margin-bottom: 15px;
     margin-top: 0;
+    color: #fff;
   }
 
   @media screen and (min-width: 1001px) {
@@ -642,7 +643,10 @@
       align-content: start;
       text-align: left;
       padding: 61px 20px 70px;
-      background-clip: border-box ;
+      background-clip: border-box;
+      * a{
+        color: #e0e0e0;
+      }
     }
 
     .grid-element {
@@ -656,6 +660,9 @@
       display: flex;
       padding: 39px 0 50px;
       gap: 16px;
+      & a{
+        color: #e0e0e0;
+      }
     }
 
     .back-artist {
@@ -1006,6 +1013,9 @@
       h2 {
         margin-top: 0px;
       }
+      * a{
+        color: #e0e0e0;
+      }
     }
     .footer-img {
       display: flex;
@@ -1019,6 +1029,9 @@
       padding-top: 39px;
       text-align: left;
       gap: 16px;
+      & a{
+        color: #e0e0e0;
+      }
     }
 
 

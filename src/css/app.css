@@ -383,6 +383,7 @@ input {
 .about {
   margin-bottom: 15px;
   margin-top: 0;
+  color: #fff;
 }
 
 @media screen and (min-width: 1001px) {
@@ -627,6 +628,9 @@ input {
     padding: 61px 20px 70px;
     background-clip: border-box;
   }
+  .footer-grid * a {
+    color: #e0e0e0;
+  }
   .grid-element {
     display: flex;
     flex-direction: column;
@@ -635,6 +639,9 @@ input {
     display: flex;
     padding: 39px 0 50px;
     gap: 16px;
+  }
+  .flex-foot a {
+    color: #e0e0e0;
   }
   .back-artist {
     background-image: url("../images/Morten Harket.png");
@@ -943,6 +950,9 @@ input {
   .footer-grid h2 {
     margin-top: 0px;
   }
+  .footer-grid * a {
+    color: #e0e0e0;
+  }
   .footer-img {
     display: flex;
     gap: 24px;
@@ -954,6 +964,9 @@ input {
     padding-top: 39px;
     text-align: left;
     gap: 16px;
+  }
+  .flex-foot a {
+    color: #e0e0e0;
   }
   .mm-25 {
     margin-left: 25px;
