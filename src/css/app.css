@@ -120,12 +120,16 @@ input[type=email]::-webkit-input-placeholder {
 
 .p-news {
   margin-top: 0;
+  margin-bottom: 24px;
+}
+.p-news-2 {
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
 .main-h {
   font-size: 16px;
-  margin-bottom: 210px;
+  margin-bottom: 200px;
   padding-top: 30px;
   margin-top: 0;
   font-weight: normal;
@@ -210,7 +214,7 @@ input[type=email]::-webkit-input-placeholder {
 }
 .news-author p {
   font-size: 12px;
-  margin-left: 15px;
+  margin-left: 16px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 20px;
@@ -387,6 +391,11 @@ input {
   margin-top: 0;
   color: #fff;
 }
+.about-mess {
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #fff;
+}
 
 @media screen and (min-width: 1001px) {
   h1 {
@@ -556,7 +565,7 @@ input {
     border: 1px solid #fff;
     border-radius: 3px;
     color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 65px;
     margin-top: 40px;
     font-size: 16px;
   }
@@ -627,7 +636,7 @@ input {
     grid-column-gap: 40px;
     align-content: start;
     text-align: left;
-    padding: 61px 20px 70px;
+    padding: 70px 20px 70px;
     background-clip: border-box;
   }
   .footer-grid * a {
@@ -779,13 +788,13 @@ input {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0 20px;
+    padding: 0 20px;
     text-align: left;
   }
   .search {
     width: 100%;
     margin-left: 0;
-    margin-top: 16px;
+    margin-top: 20px;
   }
   .lh-0 {
     margin: 0;
@@ -806,7 +815,7 @@ input {
     border: 1px solid #fff;
     border-radius: 3px;
     color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
     margin-top: 40px;
     font-size: 16px;
   }
@@ -872,12 +881,12 @@ input {
     margin-right: 16px;
   }
   .card {
-    height: 600px;
+    height: 615px;
     width: 100%;
     margin-top: 45px;
   }
   .card.first {
-    height: 600px;
+    height: 615px;
     width: 100%;
     margin-top: 0;
   }
