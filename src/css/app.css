@@ -107,7 +107,7 @@ input[type=email]::-webkit-input-placeholder {
   height: 615px;
   padding: 0 1.5rem;
   border-radius: 1rem;
-  width: 30%;
+  width: 366.66px;
 }
 .card h2 {
   margin: 0;
@@ -120,7 +120,7 @@ input[type=email]::-webkit-input-placeholder {
 
 .p-news {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .main-h {
@@ -179,6 +179,7 @@ input[type=email]::-webkit-input-placeholder {
   vertical-align: bottom;
   color: white;
   font-weight: normal;
+  margin-right: 5px;
 }
 
 .rub {
@@ -212,6 +213,7 @@ input[type=email]::-webkit-input-placeholder {
   margin-left: 15px;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 20px;
 }
 
 .name-author {
@@ -554,7 +556,7 @@ input {
     border: 1px solid #fff;
     border-radius: 3px;
     color: #fff;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     margin-top: 40px;
     font-size: 16px;
   }
@@ -631,6 +633,9 @@ input {
   .footer-grid * a {
     color: #e0e0e0;
   }
+  .footer-grid * p {
+    color: #e0e0e0;
+  }
   .grid-element {
     display: flex;
     flex-direction: column;
@@ -678,7 +683,7 @@ input {
   }
   .header {
     position: absolute;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -787,7 +792,7 @@ input {
   }
   .form {
     width: 100%;
-    height: 55px;
+    height: 50px;
   }
   .button {
     width: 100%;
@@ -801,7 +806,7 @@ input {
     border: 1px solid #fff;
     border-radius: 3px;
     color: #fff;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     margin-top: 40px;
     font-size: 16px;
   }
@@ -867,12 +872,12 @@ input {
     margin-right: 16px;
   }
   .card {
-    height: 595px;
+    height: 600px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 45px;
   }
   .card.first {
-    height: 595px;
+    height: 600px;
     width: 100%;
     margin-top: 0;
   }
@@ -951,6 +956,9 @@ input {
     margin-top: 0px;
   }
   .footer-grid * a {
+    color: #e0e0e0;
+  }
+  .footer-grid * p {
     color: #e0e0e0;
   }
   .footer-img {
