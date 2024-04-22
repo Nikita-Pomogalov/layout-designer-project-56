@@ -120,11 +120,12 @@ input[type=email]::-webkit-input-placeholder {
 
 .p-news {
   margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .main-h {
   font-size: 16px;
-  margin-bottom: 200px;
+  margin-bottom: 210px;
   padding-top: 30px;
   margin-top: 0;
   font-weight: normal;
@@ -178,7 +179,6 @@ input[type=email]::-webkit-input-placeholder {
   vertical-align: bottom;
   color: white;
   font-weight: normal;
-  margin-right: 10px;
 }
 
 .rub {
@@ -380,6 +380,11 @@ input {
   margin-left: 20px;
 }
 
+.about {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
 @media screen and (min-width: 1001px) {
   h1 {
     font-size: 60px;
@@ -569,7 +574,7 @@ input {
     background: none;
     border: 1px solid #cacaca;
     color: #cacaca;
-    margin-top: 48px;
+    margin-top: 40px;
     padding: 16px 30px;
     float: left;
     text-transform: uppercase;
@@ -619,7 +624,7 @@ input {
     grid-column-gap: 40px;
     align-content: start;
     text-align: left;
-    padding: 60px 20px;
+    padding: 61px 20px 65px;
     background-clip: border-box;
   }
   .grid-element {
@@ -666,7 +671,7 @@ input {
   }
   .header {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -744,7 +749,7 @@ input {
     color: #cacaca;
   }
   .img-main {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
   .m-20 {
     margin-top: 20px;
@@ -754,8 +759,9 @@ input {
   }
   .pos {
     position: absolute;
-    left: 55px;
+    left: 60px;
     top: 0px;
+    font-weight: 700;
   }
   .flex-m {
     display: flex;
@@ -767,12 +773,14 @@ input {
   .search {
     width: 100%;
     margin-left: 0;
+    margin-top: 16px;
   }
   .lh-0 {
     margin: 0;
   }
   .form {
     width: 100%;
+    height: 55px;
   }
   .button {
     width: 100%;
@@ -920,7 +928,7 @@ input {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-top: 16px;
+    margin-top: 10px;
   }
   .footer-grid {
     display: grid;
