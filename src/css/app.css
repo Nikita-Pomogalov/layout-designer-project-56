@@ -124,7 +124,7 @@ input[type=email]::-webkit-input-placeholder {
 
 .main-h {
   font-size: 16px;
-  margin-bottom: 210px;
+  margin-bottom: 200px;
   padding-top: 30px;
   margin-top: 0;
   font-weight: normal;
@@ -206,11 +206,12 @@ input[type=email]::-webkit-input-placeholder {
 .news-author .size-19 {
   height: 19px;
   width: 19px;
-  margin-top: 15px;
 }
 .news-author p {
   font-size: 12px;
   margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .name-author {
@@ -277,9 +278,9 @@ input {
   gap: 30px;
 }
 
-.img-50 {
-  height: 50px;
-  width: 50px;
+.img-55 {
+  height: 55px;
+  width: 55px;
 }
 
 .p-white {
@@ -373,6 +374,10 @@ input {
 }
 .footer p {
   margin: 0;
+}
+
+.twitter {
+  margin-left: 20px;
 }
 
 @media screen and (min-width: 1001px) {
@@ -469,7 +474,6 @@ input {
     text-align: center;
     box-sizing: content-box;
     max-width: 1200px;
-    color: #fff;
   }
   .section__artist {
     padding: 100px 20px 0;
@@ -541,7 +545,7 @@ input {
   .button.sub {
     min-width: 100%;
     background: none;
-    border: 1px solid #cacaca;
+    border: 1px solid #fff;
     border-radius: 3px;
     color: #fff;
     margin-bottom: 70px;
@@ -558,13 +562,14 @@ input {
     float: left;
     text-transform: none;
     font-size: 12.8px;
+    font-family: Roboto, sans-serif;
   }
   .album {
     min-width: 20%;
     background: none;
     border: 1px solid #cacaca;
     color: #cacaca;
-    margin-top: 25px;
+    margin-top: 48px;
     padding: 16px 30px;
     float: left;
     text-transform: uppercase;
@@ -599,13 +604,14 @@ input {
   }
   .mobile-page {
     display: flex;
+    gap: 144px;
   }
   .description-mob {
     display: flex;
     flex-direction: column;
+    flex: 0 1 600px;
     text-align: left;
-    margin-right: 150px;
-    width: 50%;
+    margin-top: 16px;
   }
   .footer-grid {
     display: grid;
@@ -622,7 +628,8 @@ input {
   }
   .flex-foot {
     display: flex;
-    padding: 48px 20px;
+    padding: 40px 20px;
+    gap: 16px;
   }
   .back-artist {
     background-image: url("../images/Morten Harket.png");
@@ -659,7 +666,7 @@ input {
   }
   .header {
     position: absolute;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -737,7 +744,7 @@ input {
     color: #cacaca;
   }
   .img-main {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .m-20 {
     margin-top: 20px;
@@ -747,7 +754,7 @@ input {
   }
   .pos {
     position: absolute;
-    left: 65px;
+    left: 55px;
     top: 0px;
   }
   .flex-m {
@@ -770,14 +777,18 @@ input {
   .button {
     width: 100%;
   }
+  .button.but_access {
+    height: 57px;
+  }
   .button.sub {
     min-width: 100%;
     background: none;
-    border: 1px solid #cacaca;
+    border: 1px solid #fff;
     border-radius: 3px;
-    color: #cacaca;
+    color: #fff;
     margin-bottom: 70px;
     margin-top: 40px;
+    font-size: 16px;
   }
   .button.download {
     min-width: 10%;
@@ -789,13 +800,14 @@ input {
     float: left;
     text-transform: none;
     font-size: 12.8px;
+    font-family: Roboto, sans-serif;
   }
   .album {
     height: 53px;
     background: none;
     border: 1px solid #cacaca;
     color: #cacaca;
-    margin-top: 25px;
+    margin-top: 48px;
     margin-bottom: 65px;
     padding: 16px 30px;
     float: left;
@@ -807,7 +819,7 @@ input {
     margin-bottom: 0;
   }
   .main-h {
-    margin-bottom: 180px;
+    margin-bottom: 200px;
     padding-top: 16px;
   }
   .purple {
@@ -908,6 +920,7 @@ input {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-top: 16px;
   }
   .footer-grid {
     display: grid;
@@ -932,12 +945,7 @@ input {
     padding-bottom: 30px;
     padding-top: 2rem;
     text-align: left;
-  }
-  .flex-foot .m-a-16 {
-    margin-top: 16px;
-  }
-  .last-grid {
-    height: 100px;
+    gap: 16px;
   }
   .mm-25 {
     margin-left: 25px;
