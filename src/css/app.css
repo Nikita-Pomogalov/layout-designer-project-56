@@ -624,7 +624,7 @@ input {
     grid-column-gap: 40px;
     align-content: start;
     text-align: left;
-    padding: 61px 20px 65px;
+    padding: 61px 20px 70px;
     background-clip: border-box;
   }
   .grid-element {
