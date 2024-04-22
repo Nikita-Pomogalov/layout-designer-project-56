@@ -381,7 +381,7 @@ input {
 }
 
 .about {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   margin-top: 0;
 }
 
@@ -633,7 +633,7 @@ input {
   }
   .flex-foot {
     display: flex;
-    padding: 40px 20px;
+    padding: 39px 0 50px;
     gap: 16px;
   }
   .back-artist {
@@ -950,8 +950,8 @@ input {
   .flex-foot {
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
-    padding-top: 2rem;
+    padding-bottom: 50px;
+    padding-top: 39px;
     text-align: left;
     gap: 16px;
   }
