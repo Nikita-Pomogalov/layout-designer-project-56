@@ -885,7 +885,7 @@ input {
   .card {
     height: 595px;
     width: 100%;
-    margin-top: 46px;
+    margin-top: 50px;
   }
   .card.first {
     height: 595px;
@@ -893,7 +893,7 @@ input {
     margin-top: 0;
   }
   .information {
-    margin-top: 46px;
+    margin-top: 40px;
   }
   .free {
     background-image: url("../images/subscribe_1.png");
