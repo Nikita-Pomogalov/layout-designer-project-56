@@ -952,10 +952,21 @@
       margin-top: 46px;
     }
     .free {
+      background-image: url("../images/subscribe_1.png");
+      background-size: cover;
+      background-position: 0px 0px;
       margin-right: 0;
     }
     .usual {
+      background-image: url("../images/subscribe_2.png");
+      background-size: cover;
+      background-position: 0px 0px;
       margin-right: 0;
+    }
+    .premium {
+      background-image: url("../images/subscribe_3.png");
+      background-size: cover;
+      background-position: 0px 0px;
     }
     .news-body {
       text-align: left;
