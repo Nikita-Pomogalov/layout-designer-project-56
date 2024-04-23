@@ -397,7 +397,7 @@ input {
   color: #fff;
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (width >= 1001px) {
   h1 {
     font-size: 60px;
     line-height: 90px;
@@ -675,7 +675,7 @@ input {
     color: #e0e0e0;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (1px <= width <= 1000px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
