@@ -421,29 +421,6 @@ input {
     color: #cacaca;
     margin-top: 16px;
   }
-  .flex-foot {
-    display: flex;
-    padding: 39px 0 50px;
-    gap: 16px;
-  }
-  .flex-foot a {
-    color: #e0e0e0;
-  }
-  .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 40px;
-    align-content: start;
-    text-align: left;
-    padding: 61px 0 75px;
-    background-clip: border-box;
-  }
-  .footer-grid * a {
-    color: #e0e0e0;
-  }
-  .footer-grid * p {
-    color: #e0e0e0;
-  }
   .header {
     position: absolute;
     margin-top: 20px;
@@ -1045,6 +1022,30 @@ input {
     display: flex;
     flex-direction: column;
   }
+}
+.flex-foot {
+  display: flex;
+  padding: 39px 0 50px;
+  gap: 16px;
+}
+.flex-foot .e0 {
+  color: #e0e0e0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
+  align-content: start;
+  text-align: left;
+  padding: 61px 0 75px;
+  background-clip: border-box;
+}
+.footer-grid * .e0 {
+  color: #e0e0e0;
+}
+.footer-grid * p {
+  color: #e0e0e0;
 }
 
 /*# sourceMappingURL=app.css.map */
