@@ -966,7 +966,7 @@ input {
   }
   .footer-grid {
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr) auto auto;
     grid-row-gap: 30px;
     align-content: start;
     text-align: left;
