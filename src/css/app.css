@@ -636,7 +636,7 @@ input {
     grid-column-gap: 40px;
     align-content: start;
     text-align: left;
-    padding: 61px 20px 65px;
+    padding: 61px 0 75px;
     background-clip: border-box;
   }
   .footer-grid * a {
@@ -715,7 +715,7 @@ input {
     box-sizing: content-box;
   }
   .section-description {
-    padding: 250px 25px 190px;
+    padding: 248px 20px 202px;
     text-align: center;
     color: #fff;
   }
@@ -780,7 +780,7 @@ input {
   }
   .pos {
     position: absolute;
-    left: 60px;
+    left: 65px;
     top: 0px;
     font-weight: 700;
   }
@@ -788,7 +788,7 @@ input {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 0 25px;
+    padding: 0 20px;
     text-align: left;
   }
   .search {
@@ -851,6 +851,7 @@ input {
     margin-bottom: 200px;
     padding-top: 16px;
     color: #fff;
+    font-weight: 700;
   }
   .purple {
     border: none;
@@ -879,12 +880,12 @@ input {
   }
   .count {
     vertical-align: top;
-    margin-right: 5px;
+    margin-right: 10px;
   }
   .card {
     height: 595px;
     width: 100%;
-    margin-top: 45px;
+    margin-top: 46px;
   }
   .card.first {
     height: 595px;
@@ -892,7 +893,7 @@ input {
     margin-top: 0;
   }
   .information {
-    margin-top: 45px;
+    margin-top: 46px;
   }
   .free {
     margin-right: 0;
