@@ -781,7 +781,7 @@ input {
   .pos {
     position: absolute;
     left: 65px;
-    top: 0px;
+    top: 0;
     font-weight: 700;
   }
   .flex-m {
@@ -868,7 +868,7 @@ input {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 0px;
+    margin-top: 0;
   }
   .f-30 {
     font-weight: normal;
@@ -898,19 +898,19 @@ input {
   .free {
     background-image: url("../images/subscribe_1.png");
     background-size: cover;
-    background-position: 0px 0px;
+    background-position: 0 0;
     margin-right: 0;
   }
   .usual {
     background-image: url("../images/subscribe_2.png");
     background-size: cover;
-    background-position: 0px 0px;
+    background-position: 0 0;
     margin-right: 0;
   }
   .premium {
     background-image: url("../images/subscribe_3.png");
     background-size: cover;
-    background-position: 0px 0px;
+    background-position: 0 0;
   }
   .news-body {
     text-align: left;
@@ -975,7 +975,7 @@ input {
     background-clip: border-box;
   }
   .footer-grid h2 {
-    margin-top: 0px;
+    margin-top: 0;
   }
   .footer-grid * a {
     color: #e0e0e0;

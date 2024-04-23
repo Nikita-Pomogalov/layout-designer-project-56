@@ -120,6 +120,7 @@
     h2 {
       margin: 0;
     }
+    
     p {
       margin: 0;
       height: 57px;
@@ -130,6 +131,7 @@
   .p-news {
     margin-top: 0;
     margin-bottom: 24px;
+
     &-2{
       margin-top: 0;
       margin-bottom: 16px;
@@ -221,6 +223,7 @@
       height: 19px;
       width: 19px;
     }
+
     p {
       font-size: 12px;
       margin-left: 16px;
@@ -229,6 +232,7 @@
       line-height: 20px;
     }
   }
+
   .name-author {
     color: #F89202;
     text-transform: uppercase;
@@ -242,9 +246,11 @@
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
+
     &.now {
       color: white;
     }
+
     &-price {
       text-transform: uppercase;
     }
@@ -282,6 +288,7 @@
     display: flex;
     align-items: center;
     text-align: center;
+
     p {
       margin-top: 0;
       margin-bottom: 0;
@@ -318,6 +325,7 @@
   .track-info {
     margin-left: 20px;
     vertical-align: middle;
+
     h3{
       font-size: 12.8px;
       line-height: 19.2px;
@@ -360,6 +368,7 @@
       font-size: 18px;
       text-transform: none;
     }
+
     *p {
       font-size: 16px;
     }
@@ -385,6 +394,7 @@
       text-decoration: none;
       margin-top: 0;
       text-align: left;
+
       &.m-t-25 {
         margin-top: 25px;
       }
@@ -403,6 +413,7 @@
     margin-bottom: 15px;
     margin-top: 0;
     color: #fff;
+
     &-mess {
       margin-bottom: 20px;
       margin-top: 0;
@@ -433,9 +444,11 @@
       width: 100%;
       display: flex;
       justify-content: space-evenly;
+
       .form {
         max-width: 570px;
       }
+
       a:hover {
         color: white;
       }
@@ -447,6 +460,7 @@
 
     .flex {
         display: flex;
+
         &.m-40 {
           margin-bottom: 40px;
         }
@@ -473,6 +487,7 @@
       box-sizing: content-box;
       max-width: 1200px;
       color: #fff;
+
       &-description {
         margin: 0 auto;
         text-align: center;
@@ -480,6 +495,7 @@
         max-width: 1200px;
         color: #fff;
       }
+
       &-pricing {
         padding: 100px 20px 0;
         margin: 0 auto;
@@ -488,6 +504,7 @@
         max-width: 1200px;
         color: #fff;
       }
+
       &-news {
         padding: 100px 20px 0;
         margin: 0 auto;
@@ -498,6 +515,7 @@
           color: #fff;
         }
       }
+
       &-mobile{
         padding: 100px 20px 0;
         margin: 0 auto;
@@ -505,6 +523,7 @@
         box-sizing: content-box;
         max-width: 1200px;
       }
+
       &-footer {
         padding: 0 20px;
         margin: 0 auto;
@@ -521,6 +540,7 @@
       box-sizing: content-box;
       max-width: 1200px;
       color: #fff;
+
       &-description {
         padding: 0 20px;
         margin: 0 auto;
@@ -529,6 +549,7 @@
         max-width: 1200px;
         color: #fff;
       }
+
       &-track {
         padding: 100px 20px 0;
         margin: 0 auto;
@@ -537,6 +558,7 @@
         max-width: 1200px;
         color: #fff;
       }
+
       &-disk {
         padding: 100px 20px 0;
         margin: 0 auto;
@@ -545,6 +567,7 @@
         max-width: 1200px;
         color: #fff;
       }
+
       &-similar {
         padding: 100px 20px 0;
         margin: 0 auto;
@@ -565,6 +588,7 @@
     .form {
       min-width: 270px;
     }
+
     .m-25 {
       @include margin-x(25px, 0)
     }
@@ -595,6 +619,7 @@
         margin-top: 40px;
         font-size: 16px;
       }
+
       &.download {
         min-width: 10%;
         max-width: 128px;
@@ -675,9 +700,11 @@
       text-align: left;
       padding: 61px 0 75px;
       background-clip: border-box;
+
       * a{
         color: #e0e0e0;
       }
+
       * p {
         color: #e0e0e0;
       }
@@ -692,6 +719,7 @@
       display: flex;
       padding: 39px 0 50px;
       gap: 16px;
+
       & a{
         color: #e0e0e0;
       }
@@ -748,6 +776,7 @@
         line-height: 17px;
         font-weight: bold;
       }
+
       a:hover {
         color: white;
       }
@@ -763,26 +792,31 @@
       text-align: center;
       width: 100%;
       box-sizing: content-box;
+
       &-description {
         padding: 248px 20px 202px;
         text-align: center;
         color: #fff;
       }
+
       &-pricing {
         padding: 100px 20px 0;
         text-align: center;
         margin: 0;
       }
+
       &-news {
         padding: 100px 20px 0;
         text-align: center;
         margin: 0;
       }
+
       &-mobile {
         padding: 100px 20px 0;
         text-align: center;
         margin: 0;
       }
+
       &-footer {
         padding-left: 20px;
         padding-right: 20px;
@@ -795,21 +829,25 @@
       text-align: left;
       width: 100%;
       box-sizing: content-box;
+
       &-description {
         padding: 225px 20px;
         text-align: left;
         color: #fff;
       }
+
       &-track {
         padding: 100px 20px 0;
         text-align: left;
         box-sizing: content-box;
       }
+
       &-disk {
         padding: 100px 20px 0;
         text-align: left;
         box-sizing: content-box;
       }
+
       &-similar {
         padding: 100px 20px 0;
         text-align: left;
@@ -829,6 +867,7 @@
     .m-20 {
       margin-top: 20px; 
     }
+
     .m-15 {
       margin-left: 15px;
     }
@@ -836,7 +875,7 @@
     .pos {
       position: absolute;
       left: 65px;
-      top: 0px;
+      top: 0;
       font-weight: 700;
     }
 
@@ -865,9 +904,11 @@
 
     .button {
       width: 100%;
+
       &.but_access {
         height: 57px;
       }
+
       &.sub {
         min-width: 100%;
         background: none;
@@ -878,6 +919,7 @@
         margin-top: 40px;
         font-size: 16px;
       }
+
       &.download {
         min-width: 10%;
         max-width: 128px;
@@ -904,6 +946,7 @@
       text-transform: uppercase;
       font-size: 13px;
       border-radius: 5px;
+
       &.second{
         margin-bottom: 0;
       }
@@ -934,7 +977,7 @@
       width: 100%;
       text-align: center;
       margin-bottom: 50px;
-      margin-top: 0px;
+      margin-top: 0;
     }
 
     .f-30 {
@@ -951,16 +994,19 @@
       vertical-align: top;
       margin-right: 10px;
     }
+
     .card {
       height: 595px;
       width: 100%;
       margin-top: 50px;
+
       &.first {
         height: 595px;
         width: 100%;
         margin-top: 0;
       }
     }
+
     .information {
       margin-top: 40px;
     }
@@ -968,21 +1014,21 @@
     .free {
       background-image: url("../images/subscribe_1.png");
       background-size: cover;
-      background-position: 0px 0px;
+      background-position: 0 0;
       margin-right: 0;
     }
 
     .usual {
       background-image: url("../images/subscribe_2.png");
       background-size: cover;
-      background-position: 0px 0px;
+      background-position: 0 0;
       margin-right: 0;
     }
 
     .premium {
       background-image: url("../images/subscribe_3.png");
       background-size: cover;
-      background-position: 0px 0px;
+      background-position: 0 0;
     }
 
     .news-body {
@@ -997,6 +1043,7 @@
         color: white;
       }
     }
+
     .marg-50 {
       margin-bottom: 50px;
     }
@@ -1012,6 +1059,7 @@
     .news-item {
       display: flex;
       flex-direction: column;
+
       &.ozzy {
         flex-direction: column-reverse;
       }
@@ -1030,6 +1078,7 @@
     .news-footer {
       font-size: 13px;
     }
+
     .grid-element {
       display: flex;
       flex-direction: column;
@@ -1058,11 +1107,13 @@
       background-clip: border-box;
       
       h2 {
-        margin-top: 0px;
+        margin-top: 0;
       }
+      
       * a{
         color: #e0e0e0;
       }
+
       * p {
         color: #e0e0e0;
       }
@@ -1080,6 +1131,7 @@
       padding-top: 39px;
       text-align: left;
       gap: 16px;
+
       & a{
         color: #e0e0e0;
       }
